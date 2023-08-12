@@ -51,7 +51,7 @@
 }
 
 .hero__image-container {
-  @apply xl:flex-[1.5] flex justify-end items-end w-full xl:h-screen;
+  @apply xl:flex-[1.5] flex justify-end items-end w-full xl:h-screen mt-10;
 }
 
 .hero__image {
@@ -59,7 +59,16 @@
 }
 
 .hero__image-overlay {
-  @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
+  position: absolute;
+  top: -24px; /* Adjust as needed */
+  right: -25%; /* Adjust as needed */
+  z-index: -10;
+ min-width: 100%;
+  min-height: 500px; /* Adjust as needed */
+  background-image: url('/hero-bg.png'); /* Set the background image */
+  background-repeat: round;
+  background-color: white; /* Adjust overlay color as needed */
+  overflow: hidden;
 }
 /* END: Hero styles */
 
