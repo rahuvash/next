@@ -13,7 +13,7 @@ const CustomButton = ({
     <button
       disabled={false}
       type={btnType||"button"}
-      className={`custom-btn ${containerStyles}`}
+      className={`custom-btn ${containerStyles}  hover:invert rounded-full`}
       onClick={handleClick}
     >
       <span className="flex-1">{title}</span>

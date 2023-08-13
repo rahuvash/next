@@ -60,10 +60,10 @@
 
 .hero__image-overlay {
   position: absolute;
-  top: -24px; /* Adjust as needed */
+  top: -50px; /* Adjust as needed */
   right: -25%; /* Adjust as needed */
   z-index: -10;
- min-width: 100%;
+  width: 100%;
   min-height: 500px; /* Adjust as needed */
   background-image: url('/hero-bg.png'); /* Set the background image */
   background-repeat: round;
